@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+
+# FAISS / knowledge base (regenerated from PDFs)
+vectorstore/index.faiss
+vectorstore/metadata.pkl
+
+# Uploaded documents (optional – remove this line if you want to track sample PDFs)
+data/documents/*.pdf
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
